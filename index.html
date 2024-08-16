@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Real Web</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="icons" href="./assets/img/Logo.svg">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <input type="checkbox" id="bars" hidden>
+                <img class="logo" src="./assets/img/Logo.svg" alt="logo">
+                <ul>
+                    <img src="./assets/img/Logo.svg" alt="logo">
+
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#startup">Почему мы?</a>
+                    </li>
+                    <li>
+                        <a href="#services">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="#portfolia">Портфолио</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Контакты</a>
+                    </li>
+                </ul>
+                <label for="bars">
+                    <svg class="bars">
+                        <use href="./assets/img/icon.svg#icon-bar" />
+                    </svg>
+                </label>
+                <label for="bars" class="modal"></д>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <div class="heroes">
+                <p class="order-num">#1</p>
+                <div>
+                    <div class="heroes-element">
+                        <h1 class="title">Преврошаем идеи в результат</h1>
+                        <p class="subtitle">Преврошаем идеи в результат</p>
+                    </div>
+
+                    <p class="subtitle">Решаем проблемы любой сложности для бизнеса и не только</p>
+                    <a href="#" class="btn-link"> Работать с нами </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="container">
+            <p class="desc">Наши партнеры</p>
+        </div>
+        <div>
+            <marquee behavior="scroll" direction="right" scrollamount="10" onmouseover="this.stop();"
+                onmouseout="this.start();">
+                <img src="./assets/img/magnum.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/vedanta.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/zortv.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/korzinka.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/yourtravel.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/cocacola.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/huawei.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/uzGm.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/makro.png" alt="Image 1" class="slider-image">
+            </marquee>
+        </div>
+        <div>
+            <marquee behavior="scroll" direction="left" scrollamount="10" onmouseover="this.stop();"
+                onmouseout="this.start();">
+                <img src="./assets/img/magnum.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/vedanta.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/zortv.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/korzinka.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/yourtravel.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/cocacola.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/huawei.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/uzGm.png" alt="Image 1" class="slider-image">
+                <img src="./assets/img/makro.png" alt="Image 1" class="slider-image">
+            </marquee>
+        </div>
+    </section>
+
+    <section id="startup" class="start-up">
+        <div class="container">
+            <div class="desc">Наши стартапы</div>
+            <div>
+
+
+                <div id="frame">
+                    <input type="radio" name="frame" id="frame1" checked />
+                    <input type="radio" name="frame" id="frame2" />
+                    <input type="radio" name="frame" id="frame3" />
+                    <input type="radio" name="frame" id="frame4" />
+
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="frame">
+                                    <div class="frame-content">
+                                        <div class="startupSlider">
+                                            <div class="slider-left">
+                                                <img src="./assets/img/start-image-1.png" alt="">
+                                                <img src="./assets/img/startup-image-2.png" alt="">
+                                                <img src="./assets/img/startup-image-3.png" alt="">
+                                            </div>
+                                            <div class="slider-right">
+                                                <h1 class="title">Profi24.uz </h1>
+                                                <p class="slider-desc">Предостовление услуг во всех сферах</p>
+                                                <p class="slider-desc">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit ut aliquam, purus
+                                                    sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+                                                    rhoncus dolor purus non
+                                                    enim praesent elementum facilisis leo, vel fringilla est ullamcorper
+                                                    eget nulla facilisi
+                                                    etiam dignissim diam quis enim lobortis scelerisque</p>
+                                                <a href="https://profi24.uz" target="_blank"
+                                                    class="btn-common">Подробнее</a>
+                                                <div class="icons">
+                                                    <a href="https://play.google.com/store/search?q=profi24&c=apps&hl=ru"
+                                                        target="_blank"><img src="./assets/img/android.svg" alt=""></a>
+                                                    <a href="https://apps.apple.com/by/app/profi24-uz/id6446810892"
+                                                        target="_blank"> <img src="./assets/img/apple.svg" alt="">
+                                                    </a>
+                                                    <a href="https://profi24.uz/">
+                                                        <img src="./assets/img/tablet.svg" alt="">
+                                                    </a>
+                                                    <a href="https://profi24.uz/" target="_blank">
+
+                                                        <img src="./assets/img/desktop.svg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="frame ">
+                                    <div class="frame-content">
+                                        <div class="startupSlider">
+                                            <div class="slider-left">
+                                                <img src="./assets/img/start-image-1.png" alt="">
+                                                <img src="./assets/img/startup-image-2.png" alt="">
+                                                <img src="./assets/img/startup-image-3.png" alt="">
+                                            </div>
+                                            <div class="slider-right">
+                                                <h1 class="title">Profi24.uz </h1>
+                                                <p class="slider-desc">Предостовление услуг во всех сферах</p>
+                                                <p class="slider-desc">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit ut aliquam, purus
+                                                    sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+                                                    rhoncus dolor purus non
+                                                    enim praesent elementum facilisis leo, vel fringilla est ullamcorper
+                                                    eget nulla facilisi
+                                                    etiam dignissim diam quis enim lobortis scelerisque</p>
+                                                <a href="https://profi24.uz" target="_blank"
+                                                    class="btn-common">Подробнее</a>
+                                                <div class="icons">
+                                                    <a href="https://play.google.com/store/search?q=profi24&c=apps&hl=ru"
+                                                        target="_blank"><img src="./assets/img/android.svg" alt=""></a>
+                                                    <a href="https://apps.apple.com/by/app/profi24-uz/id6446810892"
+                                                        target="_blank"> <img src="./assets/img/apple.svg" alt="">
+                                                    </a>
+                                                    <a href="https://profi24.uz/">
+                                                        <img src="./assets/img/tablet.svg" alt="">
+                                                    </a>
+                                                    <a href="https://profi24.uz/" target="_blank">
+
+                                                        <img src="./assets/img/desktop.svg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="frame ">
+                                    <div class="frame-content">
+                                        <div class="startupSlider">
+                                            <div class="slider-left">
+                                                <img src="./assets/img/start-image-1.png" alt="">
+                                                <img src="./assets/img/startup-image-2.png" alt="">
+                                                <img src="./assets/img/startup-image-3.png" alt="">
+                                            </div>
+                                            <div class="slider-right">
+                                                <h1 class="title">Profi24.uz </h1>
+                                                <p class="slider-desc">Предостовление услуг во всех сферах</p>
+                                                <p class="slider-desc">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit ut aliquam, purus
+                                                    sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+                                                    rhoncus dolor purus non
+                                                    enim praesent elementum facilisis leo, vel fringilla est ullamcorper
+                                                    eget nulla facilisi
+                                                    etiam dignissim diam quis enim lobortis scelerisque</p>
+                                                <a href="https://profi24.uz" target="_blank"
+                                                    class="btn-common">Подробнее</a>
+                                                <div class="icons">
+                                                    <a href="https://play.google.com/store/search?q=profi24&c=apps&hl=ru"
+                                                        target="_blank"><img src="./assets/img/android.svg" alt=""></a>
+                                                    <a href="https://apps.apple.com/by/app/profi24-uz/id6446810892"
+                                                        target="_blank"> <img src="./assets/img/apple.svg" alt="">
+                                                    </a>
+                                                    <a href="https://profi24.uz/">
+                                                        <img src="./assets/img/tablet.svg" alt="">
+                                                    </a>
+                                                    <a href="https://profi24.uz/" target="_blank">
+
+                                                        <img src="./assets/img/desktop.svg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="frame ">
+                                    <div class="frame-content">
+                                        <div class="startupSlider">
+                                            <div class="slider-left">
+                                                <img src="./assets/img/start-image-1.png" alt="">
+                                                <img src="./assets/img/startup-image-2.png" alt="">
+                                                <img src="./assets/img/startup-image-3.png" alt="">
+                                            </div>
+                                            <div class="slider-right">
+                                                <h1 class="title">Profi24.uz </h1>
+                                                <p class="slider-desc">Предостовление услуг во всех сферах</p>
+                                                <p class="slider-desc">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit ut aliquam, purus
+                                                    sit amet luctus venenatis, lectus magna fringilla urna, porttitor
+                                                    rhoncus dolor purus non
+                                                    enim praesent elementum facilisis leo, vel fringilla est ullamcorper
+                                                    eget nulla facilisi
+                                                    etiam dignissim diam quis enim lobortis scelerisque</p>
+                                                <a href="https://profi24.uz" target="_blank"
+                                                    class="btn-common">Подробнее</a>
+                                                <div class="icons">
+                                                    <a href="https://play.google.com/store/search?q=profi24&c=apps&hl=ru"
+                                                        target="_blank"><img src="./assets/img/android.svg" alt=""></a>
+                                                    <a href="https://apps.apple.com/by/app/profi24-uz/id6446810892"
+                                                        target="_blank"> <img src="./assets/img/apple.svg" alt="">
+                                                    </a>
+                                                    <a href="https://profi24.uz/">
+                                                        <img src="./assets/img/tablet.svg" alt="">
+                                                    </a>
+                                                    <a href="https://profi24.uz/" target="_blank">
+
+                                                        <img src="./assets/img/desktop.svg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="bullets">
+                        <label for="frame1"></label>
+                        <label for="frame2"></label>
+                        <label for="frame3"></label>
+                        <label for="frame4"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="desc">Наши услуги</div>
+            <div>
+                <div class="dropdown">
+                    <input type="radio" name="dropdown" id="drop1" hidden>
+                    <label for="drop1" class="drop-down">
+                        <div>
+                            <p class="title"> <span class="dropdown-count">#1</span> Мобильные приложения</p>
+                            <img src="./assets/img/icon-plus.png" alt="">
+                        </div>
+                    </label>
+                    <p class="option disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloremque
+                        odit harum facilis
+                        eius eum nobis maxime distinctio voluptas nulla.</p>
+                </div>
+                <div class="dropdown">
+                    <input type="radio" name="dropdown" id="drop2" hidden>
+                    <label for="drop2" class="drop-down">
+                        <div>
+                            <p class="title"> <span class="dropdown-count">#2</span> Веб сайты</p>
+                            <img src="./assets/img/icon-plus.png" alt="">
+                        </div>
+                    </label>
+                    <p class="option disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloremque
+                        odit harum facilis
+                        eius eum nobis maxime distinctio voluptas nulla. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dicta obcaecati ex cumque recusandae distinctio deleniti sunt nobis fugiat,
+                        nisi omnis.</p>
+                </div>
+
+                <div class="dropdown">
+                    <input type="radio" name="dropdown" id="drop3" hidden>
+                    <label for="drop3" class="drop-down">
+                        <div>
+                            <p class="title"> <span class="dropdown-count">#3</span> CRM, ERP системы</p>
+                            <img src="./assets/img/icon-plus.png" alt="">
+                        </div>
+                    </label>
+                    <p class="option disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloremque
+                        odit harum facilis
+                        eius eum nobis maxime distinctio voluptas nulla. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dicta obcaecati ex cumque recusandae distinctio deleniti sunt nobis fugiat,
+                        nisi omnis.</p>
+                </div>
+
+                <div class="dropdown">
+                    <input type="radio" name="dropdown" id="drop4" hidden>
+                    <label for="drop4" class="drop-down">
+                        <div>
+                            <p class="title"> <span class="dropdown-count">#4</span> Дизайн</p>
+                            <img src="./assets/img/icon-plus.png" alt="">
+                        </div>
+                    </label>
+                    <p class="option disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloremque
+                        odit harum facilis
+                        eius eum nobis maxime distinctio voluptas nulla. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dicta obcaecati ex cumque recusandae distinctio deleniti sunt nobis fugiat,
+                        nisi omnis.</p>
+                </div>
+
+                <div class="dropdown">
+                    <input type="radio" name="dropdown" id="drop5" hidden>
+                    <label for="drop5" class="drop-down">
+                        <div>
+                            <p class="title"> <span class="dropdown-count">#5</span> Коммерция</p>
+                            <img src="./assets/img/icon-plus.png" alt="">
+                        </div>
+                    </label>
+                    <p class="option disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloremque
+                        odit harum facilis
+                        eius eum nobis maxime distinctio voluptas nulla. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dicta obcaecati ex cumque recusandae distinctio deleniti sunt nobis fugiat,
+                        nisi omnis.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section class="technologies">
+        <div class="container">
+            <div class="desc">Технологии</div>
+            <div class="editors">
+                <div>
+                    <div class="selection">
+                        <input type="radio" name="langauge" id="frontend">
+                        <label for="frontend">FrontEnd</label>
+                    </div>
+                    <div class="selection">
+                        <input type="radio" name="langauge" id="backend">
+                        <label for="backend">BackEnd</label>
+                    </div>
+                    <div class="selection">
+                        <input type="radio" name="langauge" id="design">
+                        <label for="design">Дизайн</label>
+                    </div>
+                    <div class="selection">
+                        <input type="radio" name="langauge" id="crm">
+                        <label for="crm">CRM</label>
+                    </div>
+                    <div class="selection">
+                        <input type="radio" name="langauge" id="mobile">
+                        <label for="mobile">Мобильные приложения</label>
+                    </div>
+                </div>
+
+                <div class="tools">
+                    <div class="tool frontend">
+                        <img src="./assets/img/icon-py.png" alt="">
+                    </div>
+                    <div class="tool ">
+                        <img src="./assets/img/icon-php.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-js.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-ps.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-py.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-js.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-ps.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icons-css.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-figma.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-hd.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-ai.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icons-css.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-figma.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-hd.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-ang.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-ai.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icons-css.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-hd.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-vue.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icons-css.png" alt="">
+                    </div>
+                    <div class="tool backend">
+                        <img src="./assets/img/icon-vue.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolia" class="portfolia">
+        <div class="container">
+            <div class="desc">Портфолио</div>
+            <div class="portfolias">
+                <div>
+                    <img src="./assets/img/image1.png" alt="">
+                    <a href="https://profi24.uz/" target="_blank" class="link">
+                        <p class="subtitle">Salovey.uz</p>
+                        <span>Вебсайт для прослушивания музыки</span>
+                    </a>
+                </div>
+                <div>
+                    <img src="./assets/img/image2.png" alt="">
+                    <a href="https://profi24.uz/" target="_blank" class="link">
+                        <p class="subtitle">Salovey.uz</p>
+                        <span>Вебсайт для прослушивания музыки</span>
+                    </a>
+                </div>
+                <div>
+                    <img src="./assets/img/image3.png" alt="">
+                    <a href="https://profi24.uz/" target="_blank" class="link">
+                        <p class="subtitle">Salovey.uz</p>
+                        <span>Вебсайт для прослушивания музыки</span>
+                    </a>
+                </div>
+                <div>
+                    <img src="./assets/img/image5.png" alt="">
+                    <a href="https://profi24.uz/" target="_blank" class="link">
+                        <p class="subtitle">Salovey.uz</p>
+                        <span>Вебсайт для прослушивания музыки</span>
+                    </a>
+                </div>
+                <div>
+                    <img src="./assets/img/image4.png" alt="">
+                    <a href="https://profi24.uz/" target="_blank" class="link">
+                        <p class="subtitle">Salovey.uz</p>
+                        <span>Вебсайт для прослушивания музыки</span>
+                    </a>
+                </div>
+                <div>
+                    <img src="./assets/img/image2.png" alt="">
+                    <a href="https://profi24.uz/" target="_blank" class="link">
+                        <p class="subtitle">Salovey.uz</p>
+                        <span>Вебсайт для прослушивания музыки</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contact">
+        <div class="footerOne">
+            <a href="tel:+998555007017">
+                <div class="container">
+                    <div>
+                        <p>Есть вопросы напишите нам</p>
+                        <img src="./assets/img/icon-sender.png" alt="">
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="footerTwo">
+            <div class="container">
+                <p>© 2022 RealWeb. All rights reserved</p>
+                <div>
+                    <div>
+                        <a href="tel:+998555007017"><img src="/assets/img/icon-phone.png" alt=""></a>
+                        <span>+998 (97) 017 0077</span>
+                    </div>
+                    <div>
+
+                        <a href="mailto:realweb@info.uz">
+                            <img src="/assets/img/icon-email.png" alt="">
+                        </a>
+                        <span>realweb@info.uz</span>
+                    </div>
+                    <div>
+
+                        <a target="_blank"
+                            href="https://www.google.com/maps/place/PROFI24/@41.3273153,69.3287135,15z/data=!4m6!3m5!1s0x38aef553b6c8afcf:0x304f29dc13751a00!8m2!3d41.3273153!4d69.3287135!16s%2Fg%2F11fmkf9ywk?entry=ttu">
+
+                            <img src="/assets/img/icon-location.png" alt="">
+                        </a>
+                        <span>Shoxjakhon 54, Tashkent</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
